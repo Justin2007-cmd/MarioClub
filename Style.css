@@ -1,42 +1,32 @@
-body{
-    /* background-color: gray; */
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: -10px;
+/* CSS defaults */
+*{ /*Universal selecting syntax */
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
 }
 
-h1{
+div{
     text-align: center;
     background-color: red;
+    padding: 15px;
+}
+
+/* Header styles */
+header div h1.main_heading{
     color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 50px;
-    margin: 0px;
-    border: 10px;
-    border-radius: 10px;
-}
-
-p{
-    padding: 10px;
-    margin: 0px;
-}
-
-a{
-    background-color: grey;
+    border: solid white 4px;
+    border-radius: 20px;
+    padding: 6px;
+    /* margin-top: 10px; */
     display: inline-block;
-    text-align: center;
-    padding: 5px 11%;
+}
+
+header div.nav_bar{
+    background-color: grey;
+}
+
+header div a.navbar_links{
     color: white;
+    margin: 0px 120px;
     text-decoration: none;
-}
-
-h3{
-    color: red;
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-p{
-    font-size: 25px;
-    margin: -10px 10% 10% 10%;
 }
