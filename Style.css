@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-div{
+header div{
     text-align: center;
     background-color: red;
     padding: 15px;
@@ -19,6 +19,7 @@ header div h1.main_heading{
     padding: 6px;
     /* margin-top: 10px; */
     display: inline-block;
+    font-size: larger;
 }
 
 header div.nav_bar{
@@ -29,4 +30,59 @@ header div a.navbar_links{
     color: white;
     margin: 0px 120px;
     text-decoration: none;
+}
+
+main img{
+    width: 100%;
+    border-bottom: solid red 10px;
+}
+
+main div{
+    text-align: center;
+    background-color: white;
+}
+
+main div.main_content h1{
+    color: red;
+    
+}
+
+main div p{
+    text-align: justify;
+    line-height: 30px;
+    margin: 0% 8%;
+}
+
+footer{
+    background-color: rgba(128, 128, 128, 0.336);
+    text-align: center;
+    padding: 20px;
+    color: rgba(0, 0, 0, 0.397);
+}
+
+
+/* Friends html Styling */
+main div.Mario_friends_description img{
+    width: 20%;
+    border: 0px;
+
+}
+
+main div p{
+    text-align: center;
+}
+
+main div.Mario_friends_description{
+    background-color: rgba(128, 128, 128, 0.212);
+    border: solid rgba(128, 128, 128, 0)  2px;
+    border-radius: 25px;
+    margin: 0px 80px;
+    padding: 15px;
+    font-size: larger;
+}
+
+main div h4{
+    color: red;
+    text-align: center;
+    font-size: larger;
 }
