@@ -32,6 +32,11 @@ header div a.navbar_links{
     text-decoration: none;
 }
 
+header div a.navbar_links:hover{
+    color: red;
+    text-decoration: underline;
+}
+
 main img{
     width: 100%;
     border-bottom: solid red 10px;
@@ -85,4 +90,20 @@ main div h4{
     color: red;
     text-align: center;
     font-size: larger;
+}
+
+main{
+    text-align: center;
+    margin: 0px 100px;
+}
+
+main div h1.Gallery_Header{
+    font-size: 50px;
+}
+
+main div.Gallery img{
+    align-content: center;
+    width: 45%;
+    margin: 10px;
+    
 }
