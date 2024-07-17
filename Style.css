@@ -5,21 +5,23 @@
     padding: 0;
 }
 
+
+
+/* Header styles */
 header div{
     text-align: center;
     background-color: red;
     padding: 15px;
 }
 
-/* Header styles */
 header div h1.main_heading{
     color: white;
     border: solid white 4px;
     border-radius: 20px;
-    padding: 6px;
+    padding: 10px 15px;
     /* margin-top: 10px; */
     display: inline-block;
-    font-size: larger;
+    font-size: 30px;
 }
 
 header div.nav_bar{
@@ -37,6 +39,9 @@ header div a.navbar_links:hover{
     text-decoration: underline;
 }
 
+
+
+/* Main Styles */
 main img{
     width: 100%;
     border-bottom: solid red 10px;
@@ -52,19 +57,12 @@ main div.main_content h1{
     
 }
 
-main div p{
+main div.main_content p{
     text-align: justify;
-    line-height: 30px;
+    line-height: 35px;
     margin: 0% 8%;
+    font-size: larger;
 }
-
-footer{
-    background-color: rgba(128, 128, 128, 0.336);
-    text-align: center;
-    padding: 20px;
-    color: rgba(0, 0, 0, 0.397);
-}
-
 
 /* Friends html Styling */
 main div.Mario_friends_description img{
@@ -94,7 +92,7 @@ main div h4{
 
 main{
     text-align: center;
-    margin: 0px 100px;
+    /* margin: 0px 100px 30px 110px; */
 }
 
 main div h1.Gallery_Header{
@@ -105,5 +103,35 @@ main div.Gallery img{
     align-content: center;
     width: 45%;
     margin: 10px;
-    
+}
+
+main img.Contact_Image{
+    border: 0;
+    margin-bottom: -5px;
+}
+
+main div.Login_Form{
+    background-image: url(Images/LoginBanner.png);
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    padding: 50px;
+}
+
+main div.Login_Form input{
+    padding: 7px;
+    font-family: cursive;
+}
+
+
+/* footer Style */
+footer{
+    background-color: rgba(128, 128, 128, 0.336);
+    text-align: center;
+    padding: 20px;
+    color: rgba(0, 0, 0, 0.397);
 }
